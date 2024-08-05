@@ -1,0 +1,4 @@
+transaction_id,customer_id,product_id,quantity,price,transaction_date,payment_type,status
+TXN94389278135,39,18,4,199.0,2024-08-07,Credit Card,Completed
+TXN86871320789,18,34,4,149.99,2024-08-07,Credit Card,Failed
+TXN73358530976,46,38,5,149.99,2024-08-07,Cash,Completed
