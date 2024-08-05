@@ -1,0 +1,25 @@
+version: 0.2
+phases:
+  install:
+    runtime-versions:
+      python: 3.11
+    commands:
+      - echo "Installing dependencies...."
+  build:
+    commands:
+      - echo "Zipping deployment package for glue start..."
+      - zip glue_trigger.zip Lambda-function-code/lambda_function_glue_trigger.py
+      - zip data_archive.zip Lambda-function-code/lambda_function_data_archive.py
+
+  post_build:
+    commands:
+      - echo "Uploading files to S3 buckets....."
+      - aws s3 cp glue_trigger.zip s3://personal-projects-lambda-builds-zips/
+      - aws s3 cp data_archive.zip s3://personal-projects-lambda-builds-zips/
+      - echo "Updating Lambda Functions via S3........."
+      - echo "............Updating glue trigger lambda............"
+      - aws lambda update-function-code --function-name e-commerce-glue-trigger  --s3-bucket personal-projects-lambda-builds-zips --s3-key glue_trigger.zip
+      - echo "............Updating data archive lambda............"
+      - aws lambda update-function-code --function-name e-commerce-data-archive  --s3-bucket personal-projects-lambda-builds-zips --s3-key data_archive.zip
+      - echo "Deployment Complete!!!!!!!!!!!!!!!!!"
+
