@@ -1,0 +1,51 @@
+product_id,product_name,category,price,supplier_id
+1,Product_1,Home & Kitchen,89.99,103
+2,Product_2,Home & Kitchen,29.99,104
+3,Product_3,Sports & Outdoors,89.99,102
+4,Product_4,Home & Kitchen,49.99,103
+5,Product_5,Beauty,49.99,102
+6,Product_6,Sports & Outdoors,199.0,104
+7,Product_7,Sports & Outdoors,199.0,103
+8,Product_8,Clothing,89.99,107
+9,Product_9,Sports & Outdoors,199.0,102
+10,Product_10,Beauty,29.99,105
+11,Product_11,Clothing,29.99,105
+12,Product_12,Electronics,29.99,104
+13,Product_13,Clothing,149.99,104
+14,Product_14,Sports & Outdoors,89.99,101
+15,Product_15,Beauty,49.99,103
+16,Product_16,Home & Kitchen,29.99,104
+17,Product_17,Beauty,149.99,106
+18,Product_18,Home & Kitchen,199.0,101
+19,Product_19,Sports & Outdoors,149.99,107
+20,Product_20,Clothing,29.99,105
+21,Product_21,Sports & Outdoors,199.0,101
+22,Product_22,Clothing,149.99,103
+23,Product_23,Home & Kitchen,149.99,102
+24,Product_24,Home & Kitchen,799.99,107
+25,Product_25,Clothing,89.99,106
+26,Product_26,Home & Kitchen,799.99,107
+27,Product_27,Electronics,149.99,107
+28,Product_28,Clothing,149.99,105
+29,Product_29,Beauty,89.99,102
+30,Product_30,Clothing,199.0,106
+31,Product_31,Home & Kitchen,14.5,104
+32,Product_32,Clothing,49.99,101
+33,Product_33,Electronics,89.99,105
+34,Product_34,Beauty,149.99,106
+35,Product_35,Electronics,14.5,107
+36,Product_36,Clothing,199.0,104
+37,Product_37,Sports & Outdoors,29.99,101
+38,Product_38,Beauty,149.99,107
+39,Product_39,Electronics,199.0,107
+40,Product_40,Sports & Outdoors,799.99,107
+41,Product_41,Beauty,89.99,105
+42,Product_42,Electronics,49.99,102
+43,Product_43,Sports & Outdoors,89.99,106
+44,Product_44,Beauty,799.99,101
+45,Product_45,Home & Kitchen,14.5,107
+46,Product_46,Sports & Outdoors,799.99,103
+47,Product_47,Beauty,89.99,107
+48,Product_48,Home & Kitchen,199.0,101
+49,Product_49,Beauty,29.99,102
+50,Product_50,Electronics,89.99,104
