@@ -8,8 +8,8 @@ phases:
   build:
     commands:
       - echo "Zipping deployment package for glue start..."
-      - zip glue_trigger.zip Lambda-function-code/lambda_function_glue_trigger.py
-      - zip data_archive.zip Lambda-function-code/lambda_function_data_archive.py
+      - zip -j glue_trigger.zip Lambda-function-code/lambda_function_glue_trigger.py
+      - zip -j data_archive.zip Lambda-function-code/lambda_function_data_archive.py
 
   post_build:
     commands:
